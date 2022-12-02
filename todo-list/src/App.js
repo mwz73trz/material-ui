@@ -1,9 +1,12 @@
-import "./App.css";
+import NavBar from "./components/NavBar";
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <NavBar />
+      <br />
+      <TodoList />
     </div>
   );
 };
